@@ -1,0 +1,32 @@
+# constants.py
+
+"""This module defines project-level constants."""
+
+# Action codes for the heater's doit function
+START_STOP = 1
+TEMP_DOWN = 2
+TEMP_UP = 3
+HYSTERESIS_UP = 5
+HYSTERESIS_DOWN = 6
+FEED_RATE_HIGH_UP = 9
+FEED_RATE_HIGH_DOWN = 10
+FAN_SPEED_IGNITION_UP = 11
+FAN_SPEED_IGNITION_DOWN = 12
+FAN_SPEED_HIGH_UP = 13
+FAN_SPEED_HIGH_DOWN = 14
+FAN_SPEED_COOLDOWN_UP = 15
+FAN_SPPED_COOLDOWN_DOWN = 16
+COOL_TIME_UP = 17
+COOL_TIME_DOWN = 18
+FEEDER_TEST = 23
+CONV_FAN_SPEED_TEST_UP = 24
+CONV_FAN_SPEED_TEST_DOWN = 25
+POWER_HIGH = 28
+POWER_LOW = 29
+POWER_MANUAL = 30
+
+# JSON-files available
+# Must start with /
+STATUS = "/data.html"
+SETTINGS = "/data2.html"
+TIME = "/clockdata.html"
